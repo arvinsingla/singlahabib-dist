@@ -16,7 +16,18 @@
 
 <!-- RSVP form -->
 <div id="rsvp" class="row">
+
   <a href="#" class="rsvp-close icon close">Close</a>
+
+  <div id="rsvp-thankyou" class="hide">
+    <div class="icon checkmark"></div>
+    <h3>Thank you for RSVPing</h3>
+  </div>
+  <div id="rsvp-error" class="hide">
+    <h3>An error occurred :(<h3>
+    <h4>Please reload the page and try again.</h4>
+  </div>
+
   <div class="small-12 medium-6 large-4 large-centered medium-centered columns">
     <div class="row-content text-center">
       <form id="rsvp-form" data-parsley-validate>
@@ -53,17 +64,10 @@
           </div>
         </div>
 
-        <input type="submit" name="rsvp-submit" class="form-group" value="Confirm your reservation">
+        <button class="form-group ladda-button rsvp-submit" data-style="expand-left">
+          <span class="ladda-label">Confirm your reservation</span>
+        </button>
       </form>
-
-      <div id="rsvp-thankyou" class="hide">
-        <div class="icon checkmark"></div>
-        <h3>Thank you for RSVPing</h3>
-      </div>
-      <div id="rsvp-error" class="hide">
-        <div class="icon close"></div>
-        <h3>An error occurred. Please reload the page and try again.</h3>
-      </div>
     </div>
   </div>
 </div>
@@ -190,6 +194,11 @@
     <div class="cat icons-pusheen-right"></div>
   </div>
 
+  <div class="tip-container tip-right">
+    <div class="tooltip">Because of her never ending antics, Caroline &amp; Arvin often &quot;joke&quot; about throwing Paxil &quot;dans la poubelle&quot;.</div>
+    <div class="cat icons-pusheen-left"></div>
+  </div>
+
   <!-- Accommodations content -->
 <div id="accommodation" class="row">
   <!-- Hotel -->
@@ -224,8 +233,13 @@
 
 
   <div class="tip-container tip-right">
-    <div class="tooltip">Because of her never ending antics, Caroline &amp; Arvin often &quot;joke&quot; about throwing Paxil &quot;dans la poubelle&quot;.</div>
+    <div class="tooltip">Arvin &amp; Caroline are contemplating getting a rabbit as a pet because rumour has it, they can be litter trained.</div>
     <div class="cat icons-pusheen-left"></div>
+  </div>
+
+  <div class="tip-container tip-left">
+    <div class="tooltip">3 months into their blossoming relationship, Caroline fractured both her elbows and Arvin didn’t run for the hills!</div>
+    <div class="cat icons-pusheen-right"></div>
   </div>
 
   <!-- Wondering content -->
@@ -259,11 +273,6 @@
 <!-- /Wondering content -->
 
 
-  <div class="tip-container tip-left">
-    <div class="tooltip">Arvin &amp; Caroline are contemplating getting a rabbit as a pet because rumour has it, they can be litter trained.</div>
-    <div class="cat icons-pusheen-right"></div>
-  </div>
-
   <!-- Thingstodo content -->
 <div id="thingstodo" class="row">
   <div class="small-12 medium-12 large-12 column">
@@ -295,13 +304,6 @@
             <p class="white show-for-medium-up">The mecca of the Toronto Film Festival! If you have a few hours to spare in a dark room, this place hosts the best of art house cinema. Also, they are hosting a <a href="http://www.tiff.net/exhibitions/upcoming-exhibitions/stanley-kubrick-exhibition" target="_BLANK">Stanley Kubrick</a> exhibition!</p>
           </div>
         </li>
-        <li class="slide-ago">
-          <img class="row-image" data-interchange="[images/bg-slide2-mobile.jpg, (default)], [images/bg-slide2-tablet.jpg, (medium)], [images/bg-slide2-desktop.jpg, (large)]">
-          <div class="slide-wrapper">
-            <h2 class="gold">#4 AGO (Art Gallery of Ontario)</h2>
-            <p class="white show-for-medium-up">One of Toronto’s most prestigious art galleries, hosting a number a fascinating exhibits. Always a great visit.</p>
-          </div>
-        </li>
       </ul>
     </div>
   </div>
@@ -310,7 +312,12 @@
 
 
   <div class="tip-container tip-right">
-    <div class="tooltip">3 months into their blossoming relationship, Caroline fractured both her elbows and Arvin didn’t run for the hills!</div>
+    <div class="tooltip">Caroline &amp; Arvin love ping pong (a lot) and will challenge you at the wedding.</div>
+    <div class="cat icons-pusheen-left"></div>
+  </div>
+
+  <div class="tip-container tip-left">
+    <div class="tooltip">Caroline has more photos of random animals on her phone that she does of Arvin.</div>
     <div class="cat icons-pusheen-left"></div>
   </div>
 
@@ -335,8 +342,13 @@
 
 
   <div class="tip-container tip-left">
-    <div class="tooltip">Caroline &amp; Arvin love ping pong (a lot) and will challenge you at the wedding.</div>
+    <div class="tooltip">Arvin held an intervention for Caroline&#x27;s crippling plastic bag addiction. Progress is slow but ongoing.</div>
     <div class="cat icons-pusheen-right"></div>
+  </div>
+
+  <div class="tip-container tip-right">
+    <div class="tooltip">Every time she comes back from a trip, Arvin gets Caroline flowers. A tradition that started when she returned from Miami with broken arms.</div>
+    <div class="cat icons-pusheen-left"></div>
   </div>
 
   <!-- Outro content -->
